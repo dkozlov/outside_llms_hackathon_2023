@@ -1,0 +1,3 @@
+[submodule "articulatory/articulatory"]
+	path = articulatory/articulatory
+	url = https://github.com/articulatory/articulatory/
