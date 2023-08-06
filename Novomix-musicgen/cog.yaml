@@ -1,0 +1,10 @@
+image: r8.im/rutledge/novomix
+build:
+  gpu: true # If the model utilizes GPU, set this to true.
+  system_packages:
+    - "ffmpeg" # The model requires ffmpeg.
+  python_version: "3.9" # Adjust as per the Python version your model requires.
+  python_packages:
+    - "torchaudio"
+    - "git+https://github.com/facebookresearch/audiocraft.git"
+predict: "predict.py:Predictor" # Replace with your actual predictor class's path and name.
