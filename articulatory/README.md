@@ -1,4 +1,4 @@
-### Build docker iamge
+### Build docker image
 ```
 make clean
 make init
